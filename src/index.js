@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './App.css';
-import './App.scss'
+import './index.css';
+import 'animate.css';
+import GifExpertApp from './components/GifExpertApp'
 
-import App from './App';
+ReactDOM.render( <GifExpertApp />, document.getElementById('root'));
 
-ReactDOM.render( <App />, document.getElementById('root') );
